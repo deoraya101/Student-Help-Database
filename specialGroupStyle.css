@@ -1,0 +1,67 @@
+/* Set the general layout for the grid */
+.grid-container {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 10px;
+    -fx-hgap: 10px;
+    -fx-vgap: 8px;
+    -fx-alignment: center;
+}
+
+/* Style the buttons */
+.button {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 5);
+}
+
+/* Button hover effect */
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+/* Set the styling for Back button */
+.button#backButton {
+    -fx-background-color: #f44336; /* Red background */
+}
+
+.button#backButton:hover {
+    -fx-background-color: #e53935; /* Darker red on hover */
+}
+
+/* Style for the grid layout */
+.grid-container > .button {
+    -fx-max-width: 250px;
+}
+
+/* Center align the buttons */
+.grid-container {
+    -fx-alignment: center;
+    -fx-hgap: 15;
+    -fx-vgap: 20;
+}
+
+/* Style the title label */
+.label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+/* Back button on the bottom center */
+.button#backButton {
+    -fx-gridpane-column-span: 3;
+    -fx-alignment: center;
+    -fx-font-weight: normal;
+}
+
+/* Optional: Make the scene background color lighter */
+.scene {
+    -fx-background-color: #ffffff;
+}

@@ -1,0 +1,62 @@
+/* General Styling for the Admin Panel */
+.grid-layout {
+    -fx-background-color: #f4f4f4;  /* Light gray background for the grid */
+    -fx-padding: 20px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+
+.admin-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;  /* Dark text color */
+    -fx-alignment: center;
+}
+
+.message-label {
+    -fx-text-fill: #e74c3c;  /* Red color for messages */
+    -fx-font-size: 12px;
+    -fx-wrap-text: true;
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: #3498db; /* Blue background */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-min-width: 150px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;  /* Darker blue on hover */
+}
+
+/* Spacing for buttons and alignment */
+.grid-layout .button {
+    -fx-alignment: center;
+}
+
+/* Custom Styling for Button Groups */
+.button {
+    -fx-min-width: 200px;  /* Make buttons larger */
+    -fx-font-size: 14px;
+    -fx-pref-height: 40px;
+}
+
+/* Back Button Customization */
+.button#logoutButton {
+    -fx-background-color: #e74c3c;  /* Red for logout button */
+}
+
+.button#logoutButton:hover {
+    -fx-background-color: #c0392b;  /* Darker red for hover */
+}
+
+/* Overall Styling for the Scene */
+.scene {
+    -fx-background-color: #ecf0f1;  /* Very light gray background */
+}
